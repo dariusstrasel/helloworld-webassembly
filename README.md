@@ -50,10 +50,10 @@ To compile into webassebly, run the following:
 emcc hello.c -s WASM=1 -o hello.html
 ```
 
-emcc: emscriptem compiler executable
-hello.c: Your c or c++ source file
--s WASM=1: linker flag which tells emcc to produce wasm instead of asm.js
--o hello.html: flag which tells emcc to produce an html file in addition to the necessary files
+emcc: emscriptem compiler executable  
+hello.c: Your c or c++ source file  
+-s WASM=1: linker flag which tells emcc to produce wasm instead of asm.js  
+-o hello.html: flag which tells emcc to produce an html file in addition to the necessary files  
 
 To verify your output, run a webserver in the current directory. emcc provides a command for us:
 ```bash
